@@ -40,15 +40,28 @@ struct ContentView: View {
 
     private func launchFramework() {
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let viewcontroller = windowScene.windows.first?.rootViewController else { return }
-        let terraPaySDK = TerraPaySDK(controller: viewcontroller)
-        terraPaySDK.msisdn = "254792474540"
-        terraPaySDK.primaryColor = "EC1B24"
-        terraPaySDK.secondaryColor = "FFFFFF"
-        terraPaySDK.walletLogo = UIImage(named: "airtel")?.pngData()
-        terraPaySDK.walletName = "KES"
-        terraPaySDK.withdrawLabel = "Withdraw"
-        terraPaySDK.topUpLabel = "Top Up"
-        terraPaySDK.launch()
+        
+        let config = TerrapaySDKConfig(controller: viewcontroller,
+                                       dialCode: "+254",
+                                       msisdn: "792474540",
+                                       walletName: "Airtel Money Wallet",
+                                       currency: "KES",
+                                       countryCode: "KE",
+                                       primaryColor: "EC1B24",
+                                       secondaryColor: "FFFFFF",
+                                       email: "test@test.com",
+                                       topUpLabel: "Top-Up",
+                                       withdrawLabel: "Withdraw",
+                                       termsConditionsUrl: "")
+        
+        TerraPayClient.shared.launch(with: config) { result, error in
+            switch result {
+            case .success: print("SDK launched successfully")
+            case .cancelled: print("User cancelled")
+            case .failure: print("Error: \(error?.message ?? "")")
+            @unknown default: fatalError()
+            }
+        }
     }
 }
 
@@ -88,7 +101,7 @@ extension ContentView {
         .background(Color.black)
         .cornerRadius(8)
         .onOpenURL { url in
-            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "terrapayConnectedRedirectNotification"), object: url)
+            TerraPayClient.shared.handleRedirect(url: url)            
         }
     }
     

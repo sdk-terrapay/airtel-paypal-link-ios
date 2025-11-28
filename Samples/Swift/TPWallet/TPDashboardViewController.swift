@@ -9,7 +9,7 @@ import UIKit
 import TerraPaySDK
 
 class TPDashboardViewController: UIViewController {
-
+    
     static let identifier = "TPDashboardViewController"
     
     @IBOutlet weak var viewContainer: UIView!
@@ -32,7 +32,7 @@ class TPDashboardViewController: UIViewController {
     }
     
     private func setupNavigationBar(with imageName: String?=nil) {
-
+        
         let aspectRatio = 1.78
         let imgWidth = 40.0
         let imgViewTitle = UIImageView(image: UIImage(named: "airtel"))
@@ -64,14 +64,26 @@ class TPDashboardViewController: UIViewController {
             return
         }
         
-        let terraPaySDK = TerraPaySDK(controller: self)
-        terraPaySDK.msisdn = "+254792474540"
-        terraPaySDK.primaryColor = "EC1B24"
-        terraPaySDK.secondaryColor = "FFFFFF"
-        terraPaySDK.walletLogo = UIImage(named: "airtel")?.pngData()
-        terraPaySDK.walletName = "Airtel Money"
-        terraPaySDK.topUpLabel = "Add Money"
-        terraPaySDK.withdrawLabel = "Get Money"
-        terraPaySDK.launch()
+        let config = TerrapaySDKConfig(controller: self,
+                                       dialCode: "+254",
+                                       msisdn: "792474540",
+                                       walletName: "Airtel Money Wallet",
+                                       currency: "KES",
+                                       countryCode: "KE",
+                                       primaryColor: "EC1B24",
+                                       secondaryColor: "FFFFFF",
+                                       email: "test@test.com",
+                                       topUpLabel: "Top-Up",
+                                       withdrawLabel: "Withdraw",
+                                       termsConditionsUrl: "")
+        
+        TerraPayClient.shared.launch(with: config) { result, error in
+            switch result {
+            case .success: print("SDK launched successfully")
+            case .cancelled: print("User cancelled")
+            case .failure: print("Error: \(error?.message ?? "")")
+            @unknown default: fatalError()
+            }
+        }
     }
 }

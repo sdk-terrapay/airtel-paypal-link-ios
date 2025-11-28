@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "TPUtils.h"
+#import "TerraPaySDK/TerraPaySDK-Swift.h"
 
 @interface AppDelegate ()
 
@@ -29,8 +30,7 @@
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"terrapayConnectedRedirectNotification" object:url];
+    [[TerraPayClient shared] handleRedirectWithUrl:url];
     return YES;
 }
 @end

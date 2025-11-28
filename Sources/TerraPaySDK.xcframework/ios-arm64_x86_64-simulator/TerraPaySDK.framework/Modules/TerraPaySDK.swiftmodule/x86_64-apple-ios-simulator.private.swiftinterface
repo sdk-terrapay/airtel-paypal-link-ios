@@ -1,10 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TerraPaySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TerraPaySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 import Network
+import PDFKit
+import SafariServices
+import Security
 import Swift
 import SwiftUI
 @_exported import TerraPaySDK
@@ -13,24 +17,50 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-#if compiler(>=5.3) && $RetroactiveAttribute
-extension Foundation.URLSession : @retroactive Foundation.URLSessionDelegate {
-}
-#else
-extension Foundation.URLSession : Foundation.URLSessionDelegate {
-}
-#endif
-@objc @objcMembers public class TerraPaySDK : ObjectiveC.NSObject {
-  @objc public var walletLogo: Foundation.Data?
-  @objc public var token: Swift.String?
-  @objc public var msisdn: Swift.String?
+@objc @objcMembers public class TerrapaySDKConfig : ObjectiveC.NSObject {
+  @objc final public let controller: UIKit.UIViewController
+  @objc final public let dialCode: Swift.String
+  @objc final public let msisdn: Swift.String
+  @objc final public let walletName: Swift.String
+  @objc final public let currency: Swift.String
+  @objc final public let countryCode: Swift.String
+  @objc final public let primaryColor: Swift.String
+  @objc final public let secondaryColor: Swift.String
   @objc public var email: Swift.String?
-  @objc public var walletName: Swift.String?
-  @objc public var primaryColor: Swift.String?
-  @objc public var secondaryColor: Swift.String?
-  @objc public var topUpLabel: Swift.String?
-  @objc public var withdrawLabel: Swift.String?
-  @objc public init(controller: UIKit.UIViewController?)
-  @objc public func launch()
+  @objc public var withdrawLabel: Swift.String
+  @objc public var topUpLabel: Swift.String
+  @objc public var termsConditionsUrl: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public init(controller: UIKit.UIViewController, dialCode: Swift.String, msisdn: Swift.String, walletName: Swift.String, currency: Swift.String, countryCode: Swift.String, primaryColor: Swift.String, secondaryColor: Swift.String, email: Swift.String? = nil, topUpLabel: Swift.String = "Top Up", withdrawLabel: Swift.String = "Withdraw", termsConditionsUrl: Swift.String? = nil)
+  #endif
   @objc deinit
 }
+@objc @objcMembers public class TerraPayErrorInfo : ObjectiveC.NSObject {
+  @objc final public let code: Swift.String
+  @objc final public let message: Swift.String
+  @objc public init(code: Swift.String, message: Swift.String)
+  @objc deinit
+}
+@objc public enum TerraPayResultType : Swift.Int {
+  case success
+  case failure
+  case cancelled
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class TerraPayClient : ObjectiveC.NSObject {
+  @objc public static let shared: TerraPaySDK.TerraPayClient
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func launch(with config: TerraPaySDK.TerrapaySDKConfig, completionHandler: @escaping (TerraPaySDK.TerraPayResultType, TerraPaySDK.TerraPayErrorInfo?) -> Swift.Void)
+  #endif
+  @objc final public func handleRedirect(url: Foundation.URL)
+  @objc deinit
+}
+extension TerraPaySDK.TerraPayResultType : Swift.Equatable {}
+extension TerraPaySDK.TerraPayResultType : Swift.Hashable {}
+extension TerraPaySDK.TerraPayResultType : Swift.RawRepresentable {}

@@ -6,19 +6,27 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		rhVjM4lMpe2oXQKVOjQ5Tgylh+0=
+		d1z1DNYH4AeE91+8X9O8A+xcqYA=
+		</data>
+		<key>Base.lproj/Main.storyboardc/5KA-wV-A3e-view-eX9-e7-hY6.nib</key>
+		<data>
+		Su7Fvw8xlMJn9rPGHRSP2wrJvSg=
+		</data>
+		<key>Base.lproj/Main.storyboardc/Dri-fD-Vxv-view-hR2-oE-6SL.nib</key>
+		<data>
+		ae0voc9wqdPk9CwLtNOXXiltgvM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/FWa-LE-IsT-view-7Fm-r8-k68.nib</key>
 		<data>
-		Mn0LZmHiP0tn0U1s2J5BywsTqq8=
+		I34SI1kMHkQOBYhjqhPLq7NBuXs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		4Uwe3vCzEG0wj0p6yuEAfYXh1qE=
+		5jykBibZ/mNsa1JGsmPVYb1dxL0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/RfL-st-lhz-view-P2H-ov-hp0.nib</key>
 		<data>
-		8r3FeQIqCuLRTJgcLQx7L3YBL98=
+		+aAbKtZ+m9Otp6lUQTHaQNnvlz4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TPDashBoardViewController.nib</key>
 		<data>
@@ -26,11 +34,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/TPDropdownViewController.nib</key>
 		<data>
-		6bhFC36knQINNYZP7wNnzEvgG/w=
+		U9zb6aYw/R/15IexEnHY3VGXcxU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TPOTPVerifyViewController.nib</key>
 		<data>
 		+mTqaxC2tzQbipcjMzMqBHUgt5A=
+		</data>
+		<key>Base.lproj/Main.storyboardc/TPPDFViewController.nib</key>
+		<data>
+		Kr49lHF7BIke9K2hAwcig/R9lzc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TPStatusViewController.nib</key>
 		<data>
@@ -44,9 +56,17 @@
 		<data>
 		RvGyFCyyVFuW/x7FSg1u2jptWsU=
 		</data>
+		<key>Base.lproj/Main.storyboardc/TPTransactionInfoViewController.nib</key>
+		<data>
+		1ZVndtGysS8P4Vj1Vy9TkQi6wwg=
+		</data>
 		<key>Base.lproj/Main.storyboardc/TPTransactionListViewController.nib</key>
 		<data>
 		fCwJGLYocUlBmuNSnqKWxlo9BvI=
+		</data>
+		<key>Base.lproj/Main.storyboardc/TPTransactionProcessingViewController.nib</key>
+		<data>
+		o874AvCYlOr0YLPVGJb9xcel6do=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TPTransactionStatusViewController.nib</key>
 		<data>
@@ -60,49 +80,61 @@
 		<data>
 		lFp1ISzJ0ciCZq/tmcPvdx7d6S4=
 		</data>
+		<key>Base.lproj/Main.storyboardc/TPWebViewController.nib</key>
+		<data>
+		ET4rvWkC4WtvUHVag4ZuTKj/VEk=
+		</data>
 		<key>Base.lproj/Main.storyboardc/TPWithdrawViewController.nib</key>
 		<data>
 		ulCGXYiDqL6nOWWuAONL6LeBL0I=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Y0w-PN-2LY-view-0lQ-OL-UGV.nib</key>
 		<data>
-		BfA1S3bhy931qNG4vQbjIix+RdY=
+		eSnrg19+WMHdGnQL84djJyi1uVE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Y8a-1w-4ga-view-1LM-an-Yb3.nib</key>
 		<data>
-		1eQ0FTUzcTpq1GLXc0Din9cPTTQ=
+		P59YmU37+gcdOKE2E3H5kzPwyl4=
+		</data>
+		<key>Base.lproj/Main.storyboardc/eRr-Hh-TmN-view-8bN-Og-8nd.nib</key>
+		<data>
+		Vl8HSMtfk5U7/SWJhRTb3Ha0hE4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/fwg-4r-ykj-view-LNE-gH-KeC.nib</key>
 		<data>
-		Sn2EFd6evKEVAmv6hcy6g22V+B8=
+		d20UvfAi++cCVldQZSBV4N0w+p4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/p2d-us-XFx-view-gD9-cO-Ncm.nib</key>
 		<data>
-		2s1kPut5KVyLFLAyIT37OJl3ohs=
+		G4r1ZF5Fs/R5Luv7EdS98KHfdkA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/pOn-TY-eeu-view-Rdb-Qf-dJZ.nib</key>
 		<data>
-		8wmP2er+TzUsvDJUGwBKcpp7Ahk=
+		Sg7hnwZzUmjrXz2Xd/LmuLf+z7g=
 		</data>
 		<key>Base.lproj/Main.storyboardc/pWh-A2-sN7-view-pCY-l9-13L.nib</key>
 		<data>
-		myPYFGq/rrrGRtVvfpaJc/5owHk=
+		XCatlKUj93MBULxcwBn7ewx1Ry0=
+		</data>
+		<key>Base.lproj/Main.storyboardc/rXf-Ef-AhE-view-gKu-Ie-GnR.nib</key>
+		<data>
+		YLEeoYwvnACmSMdmhungxTAAilk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/rxB-WV-1vD-view-7Fl-IF-YjP.nib</key>
 		<data>
-		hieIXXcG8WqKEWNnJg/WLhzFgw8=
+		JuN93ciYzxk1+jH03nD91dzINwY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/wNz-bu-Dgu-view-khz-w0-6mY.nib</key>
 		<data>
-		n8U8P4F1xBCuZln01diuAxPXb6g=
+		0/4zlJRPG1ps6ORDXpDdyb/I0tc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/zIw-m3-NcY-view-S99-R9-ZTD.nib</key>
 		<data>
-		l/DVPHB0D7yhD6bzNcGBt2P0P3A=
+		gra+8K5V8+euDourCtTo2TY9+aQ=
 		</data>
 		<key>Headers/TerraPaySDK-Swift.h</key>
 		<data>
-		ntkvWMxkWWFkWT6qRBcvryUgVuw=
+		8IdM2qJIp5CVKdQOQMoJrx3PkZw=
 		</data>
 		<key>Headers/TerraPaySDK.h</key>
 		<data>
@@ -110,47 +142,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XbVNdc+SvfLCdn/owGFveSMhbzE=
+		HlTGNO9lDn36Jw89e0J6tH67m1Q=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LB8p4WJkD3t6r7OBEVEnDMZOad4=
+		6tDDIOqIod8gwCM8nIWtT8AG2UE=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rjxmgMsWH6YxTRVEahVxoEi/lDc=
+		NlNSB5/UCnFbZeLZC87aLzFobJA=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3F9UHFs54vVNzEcNrwrUPk33/8E=
+		DAkgmE0+Bk4IpsetU6eSIeJv39c=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rjxmgMsWH6YxTRVEahVxoEi/lDc=
+		NlNSB5/UCnFbZeLZC87aLzFobJA=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GVeFMs9g1YWYF0tevTJdyef9VTc=
+		t3JMACDtUH2g0tUEi+i0yyBG4WI=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LB8p4WJkD3t6r7OBEVEnDMZOad4=
+		6tDDIOqIod8gwCM8nIWtT8AG2UE=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qU3F2R+uuHsZZkI6eKmFFjXKONw=
+		be5IpfkHBIKc2DECitq37NbB99I=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xPFT4O6QTARNb0gqxyFbxS/I7RU=
+		gCPZPgH2ILDJLsdAVypBE6qgmQw=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qU3F2R+uuHsZZkI6eKmFFjXKONw=
+		be5IpfkHBIKc2DECitq37NbB99I=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		c0+fBUSP6o0mon9FGA+qg7rD7Xs=
+		+iK4YkJix/WoB+8DzguBh+h386o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -178,25 +210,25 @@
 		</data>
 		<key>TPDropdownCell.nib</key>
 		<data>
-		0JSzHTrB+3Q9/AsB1WqgVnIu064=
+		eMgBSsHvLTrr/5Hb+TNoPcLzwqk=
 		</data>
 		<key>TPTransactionViewCell.nib</key>
 		<data>
-		y8pbR6PE8JVydWMWpRCr78FqR00=
+		HzfFXQQwriu1w4itqhmDmqxKuro=
+		</data>
+		<key>TermsAndConditions.pdf</key>
+		<data>
+		iNjvIMhi83QdcIz4Tr/ChK1GQIs=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kaxq8EbR/AaZlNS+dxvfwAzh31Q=
+			YGW4QqFiwhuZ7TI8coSc3Ib0XWw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>transactions.json</key>
-		<data>
-		lVCjzEo7JLDF5BjsevYsS/Y54xI=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -204,28 +236,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p5ubR+g+cuocZhGyu7L+91+g97FqGuC8pgredMTEpHE=
+			s8p0DN5qheSpFyM5OJWs12NMVa78awPXrusiuy6zzcA=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/5KA-wV-A3e-view-eX9-e7-hY6.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F4rG+zxPyPoIsnfwwTBvI8lRxDFy6dgnCmig2GhfD/4=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Dri-fD-Vxv-view-hR2-oE-6SL.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MhAAAO/YI6fjPQBw+4Rim4JppeVK41QpD4cjsozNATs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/FWa-LE-IsT-view-7Fm-r8-k68.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AJFUwIZP+7q7h4NVmqpFCZsT+FiZ+ufd4dAPwQjgtRw=
+			Wj9n28+rMb12eVGHCyExCqPnj4JK5f3o9d2T63rG1Cw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ndQqp2HeDx6LWKFUJy5SrWwALjDrdWhyhurhMWqbEQ4=
+			aOEeSXnZgeuj81RVyVYh9+8nBdkZKAUm7AyZbK/pPys=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/RfL-st-lhz-view-P2H-ov-hp0.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HkqZjnxe9F4jVuLqOrQ91STmFhFjeGjlSmInolFVlR0=
+			toHOWr20ZWUoYyoVwq5KSlBKCbNMqbaQ5cRSooZbmYA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TPDashBoardViewController.nib</key>
@@ -239,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EKsDvOzA00tPXhgbBDEqofNKDdzf+rgj9t620MmRYSA=
+			vXi4VdT5gIyivP3OQagyT2N4RaqnUi5Ek30iTR0n4oc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TPOTPVerifyViewController.nib</key>
@@ -247,6 +293,13 @@
 			<key>hash2</key>
 			<data>
 			o5NN2WQIH3obwqYrhA7IOPu8ZA2DtYngVnhP16z9bm4=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/TPPDFViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9fVodlDpn+z1TxG9i5/a8dr38eqMgpQsprNRUJHL4qo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TPStatusViewController.nib</key>
@@ -270,11 +323,25 @@
 			slcSjk2HzGKlC3bLiCPHYmdDaif2uHzIMSfiGRyUgDY=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/TPTransactionInfoViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vjm0bCe6TKMB++9uLpI90xQTKRmnpnM+kOt+KA9y9yU=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/TPTransactionListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			SPZXPm62lkJwFBzAdVWvMZtPtDw8KS3RixfNC9xAtSM=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/TPTransactionProcessingViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/aHjQ7DCpKmCwlkgk1EQIFoJgUYE7no36qrZ7h6HxIw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TPTransactionStatusViewController.nib</key>
@@ -298,6 +365,13 @@
 			f19Kkuz3lij5sQIBcUaWBRRw5h9h+AkQ+UgIVJKxRRg=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/TPWebViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8RdRrJKdwm5oXSKVYsBqTNbpr7l9EAwXJCxXEYen0lc=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/TPWithdrawViewController.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -309,70 +383,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7qlg0GXC+7pSBEJwQEAeDEK1fSH94o9fmbD7paECn5E=
+			zbzNnzlBJzDVfbNNTZISLpswzSo9jVfzuNHlHW0lWTg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Y8a-1w-4ga-view-1LM-an-Yb3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdCucj1Snx6E5w1Z+5o/IJWPB3XA8jZS31t3stXt2HY=
+			wjo6XYGuWzfQXwh8yctfdCewgXYdlOlA4zlkRtpnZ64=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/eRr-Hh-TmN-view-8bN-Og-8nd.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wC5k0n9+XxVOSJGKycPnZVNSrzw9vrR1c6p9jfmvRb0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/fwg-4r-ykj-view-LNE-gH-KeC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FEO3TjcMLN+Uz3HGZHyIUW9uIdsMJPRlVG8nKEfTrcQ=
+			35lDmPbuj8ODkJ36+aJj6A4y3y1rjXFznFSlPenjg74=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/p2d-us-XFx-view-gD9-cO-Ncm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cH8PFTnDnQkoyiIf2sy4IxT1fwimY0x3WmposNmDTVo=
+			8AD2V5ebGzP6pWzm/LXyYtHPQJMfPk0rcKXXpvAkQ/U=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/pOn-TY-eeu-view-Rdb-Qf-dJZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rcoDp2RkFMBK5VqMSFkqGSePZnR/dOGuXPO/S7jU3tk=
+			81jQwe498Nt1rK3/xEuH8dlFxyCXUc8U7/FNOx9UMxs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/pWh-A2-sN7-view-pCY-l9-13L.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RN2cEHUxtNUCQscc3P9mzeLvt5ev2CG+o9LSg2plNJc=
+			SK6/j6L4JhXmkgFIRRCYP0dCWudvNgGuz83uT2vrsmI=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/rXf-Ef-AhE-view-gKu-Ie-GnR.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aB6D78Akcp3/cvmGJJEOWTCACybye4xljE2OTzO/IwA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/rxB-WV-1vD-view-7Fl-IF-YjP.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gSZOc7Gdfz5GU3xQLYb1GN4OBwKYTvJsxjmKh2qrOTI=
+			AXaoyGDhC4cMjjyVlj63vvkQH7VVXWwSEAAAFIIVG/4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/wNz-bu-Dgu-view-khz-w0-6mY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pi/H3xTUW3Zx5kh2eW4Ey2/Vm4R3X7ZddWp1qI8wy0A=
+			2xQ+YTl+Vs8DDH5EEhswkbNaFqbkURt7yOE80aR2fRk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/zIw-m3-NcY-view-S99-R9-ZTD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tx79+fj24Fhd2vIpidOxMpfa5exQQXgM9JOMCiw3W9w=
+			9/IzijXlzq//5RgKiBz2VkNsSR1vQzOz93AAgT528sY=
 			</data>
 		</dict>
 		<key>Headers/TerraPaySDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6qnLzNVPIbdiCPKgDcm3L1y+4svPLWnIGOvLZWnSGPA=
+			F2n8c8xxxqwMJGXG3MmFX7+9VJJG4IMHA8mvDSQ95sk=
 			</data>
 		</dict>
 		<key>Headers/TerraPaySDK.h</key>
@@ -386,70 +474,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0o8QcPztt8qX7AC4QhzlFkBFU8/frcvIrZMT5sbJlTU=
+			U/mTO0ymEoTgKEFedf+2eckFOkIre5/enNZKwoB8Mo4=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t/l6cOYgW0MQ3lMLg2TLRERouYkN0/zsPkmSdGFERpw=
+			DTO+4Iukwt4iCx7TB/TA6k859FVahh9Ymld83hyx0qg=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fr77bpYs1V0G9hEMlKhRD/ECti2vdg0v28E0MdZtUKs=
+			Tm43xtER9eHqhAuCgDo1LCTzWAJoQ6B7UJpT4gkT97Q=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t/l6cOYgW0MQ3lMLg2TLRERouYkN0/zsPkmSdGFERpw=
+			DTO+4Iukwt4iCx7TB/TA6k859FVahh9Ymld83hyx0qg=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fjBmQ76RhFY2/Xq2yGdW9cCkWlq4gamGD5cSU8yjYIM=
+			fZ2XCDGTewb7589oRjizeA00oDmOwkyfU79mejm1I8M=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0o8QcPztt8qX7AC4QhzlFkBFU8/frcvIrZMT5sbJlTU=
+			U/mTO0ymEoTgKEFedf+2eckFOkIre5/enNZKwoB8Mo4=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVDOfNxr3ohfvUki7YSM7eytSG81aSiCeH+6We5dhew=
+			tUGLdtDfENU4JsK6RCeMOxbNssXsphMjJ8e1OwggeGk=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A9zcjdFdjZn/YPd0Q7qYJ22ZudAJO+taWCA9tAjxfoA=
+			HVuaN36IEZ4LiL50dnsN+vN/yhPAzeayIyjAPGBwlo8=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVDOfNxr3ohfvUki7YSM7eytSG81aSiCeH+6We5dhew=
+			tUGLdtDfENU4JsK6RCeMOxbNssXsphMjJ8e1OwggeGk=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aXEf6viU0ODx1q/PyTa9f5vKSt9TCsmg8Q/s+a/0oYI=
+			oSvLNYnxGfrycwYWqWZwB1zVl/yyRC4/7YsKn3HMUCs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -498,31 +586,31 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h6f+YFKjFWVOP5l3mEjRGatM2I/UmWKZnbsNE16Y9qg=
+			ZMM5UJOHUL4PFAm1VWi6NeGQohzxhPRL3ZU4xtmpopY=
 			</data>
 		</dict>
 		<key>TPTransactionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JTgfpOeii1O61J/NsI8Bcrsghjv7vt7Qwwtsg9fmAhU=
+			mV6Zos9auuILCthzS3NzimwfyattR7glB7HYLT7qV8I=
+			</data>
+		</dict>
+		<key>TermsAndConditions.pdf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hPgdImeZTxF97vTn94ydfgKz4dVMbYEqtZrAnTla/SQ=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BysBX+FdODIdI7eUi+uzFyUwxO6tmj/aYFeMKDYVDiI=
+			2AUq99wJ2+d0xB5jYC8VqtRa+UbdfjhQAomrOUfl0Rg=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>transactions.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gvcAkdA3SYsVq/F7OILOEwWXY+VSq0I1KKN9Odx7lek=
-			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

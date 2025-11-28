@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import TerraPaySDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,8 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication,
                      open url: URL,
-                     options: [UIApplication.OpenURLOptionsKey: Any] = [:] ) -> Bool {        
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "terrapayConnectedRedirectNotification"), object: url)
+                     options: [UIApplication.OpenURLOptionsKey: Any] = [:] ) -> Bool {
+        TerraPayClient.shared.handleRedirect(url: url)        
         return true
     }
 }
