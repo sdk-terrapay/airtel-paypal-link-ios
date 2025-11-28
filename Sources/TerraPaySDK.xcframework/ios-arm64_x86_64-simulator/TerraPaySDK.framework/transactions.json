@@ -1,0 +1,58 @@
+[
+    {
+        "transactionID": "TXN0001",
+        "transactionType": "CREDIT",
+        "date": "2025-01-01 12:25:08",
+        "amount": 100.50,
+        "conversionRate": 129.15
+    },
+    {
+        "transactionID": "TXN0002",
+        "transactionType": "DEBIT",
+        "date": "2025-01-04 12:25:08",
+        "amount": 50.00,
+        "conversionRate": 129.15
+    },
+    {
+        "transactionID": "TXN0003",
+        "transactionType": "CREDIT",
+        "date": "2025-01-08 12:25:08",
+        "amount": 200.00,
+        "conversionRate": 129.15
+    },
+    {
+        "transactionID": "TXN0004",
+        "transactionType": "DEBIT",
+        "date": "2025-01-12 12:25:08",
+        "amount": 150.00,
+        "conversionRate": 129.15
+    },
+    {
+        "transactionID": "TXN0005",
+        "transactionType": "CREDIT",
+        "date": "2025-01-16 12:25:08",
+        "amount": 300.50,
+        "conversionRate": 129.15
+    },
+    {
+        "transactionID": "TXN0006",
+        "transactionType": "DEBIT",
+        "date": "2025-01-20 12:25:08",
+        "amount": 200.00,
+        "conversionRate": 129.15
+    },
+    {
+        "transactionID": "TXN0007",
+        "transactionType": "CREDIT",
+        "date": "2025-01-24 12:25:08",
+        "amount": 400.50,
+        "conversionRate": 129.15
+    },
+    {
+        "transactionID": "TXN0008",
+        "transactionType": "DEBIT",
+        "date": "2025-01-28 12:25:08",
+        "amount": 250.00,
+        "conversionRate": 129.15
+    }
+]

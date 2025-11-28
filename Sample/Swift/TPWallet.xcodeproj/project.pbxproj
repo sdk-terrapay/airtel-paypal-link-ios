@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7C1D9112C552DD600614A1E /* AIrtel-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7C1D9102C552DD600614A1E /* AIrtel-Info.plist */; };
+		B7C5BEBD2C4A6DEB00E6B3EB /* TPNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76DF2D12C3271AC002652BF /* TPNetworkManager.swift */; };
+		B7C5BEC22C4A6DEB00E6B3EB /* TPDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78AC94E2C257DDC00CE46BA /* TPDashboardViewController.swift */; };
+		B7C5BEC42C4A6DEB00E6B3EB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78AC9712C2BD7E400CE46BA /* UIView+Extension.swift */; };
+		B7C5BEC82C4A6DEB00E6B3EB /* TPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78AC95B2C25901500CE46BA /* TPUtils.swift */; };
+		B7C5BECB2C4A6DEB00E6B3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78AC95D2C25910F00CE46BA /* AppDelegate.swift */; };
+		B7C5BEDC2C4A6DEB00E6B3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71F0ADF2C25649E00BEA6CE /* Assets.xcassets */; };
+		B7C5BEDE2C4A6DEB00E6B3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71F0ADC2C25649C00BEA6CE /* Main.storyboard */; };
+		B7C5BEE92C4A6FA600E6B3EB /* Airtel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C5BEE72C4A6FA600E6B3EB /* Airtel.storyboard */; };
+		B7E3709B2DCB821B007E4F73 /* TerraPaySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E3709A2DCB821B007E4F73 /* TerraPaySDK.xcframework */; };
+		B7E3709C2DCB821B007E4F73 /* TerraPaySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B7E3709A2DCB821B007E4F73 /* TerraPaySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7C24E9E2DC8B6FC00464F2A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B7E3709C2DCB821B007E4F73 /* TerraPaySDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B71F0ADD2C25649C00BEA6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B71F0ADF2C25649E00BEA6CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B71F0AE42C25649E00BEA6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76DF2D12C3271AC002652BF /* TPNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPNetworkManager.swift; sourceTree = "<group>"; };
+		B78AC94E2C257DDC00CE46BA /* TPDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPDashboardViewController.swift; sourceTree = "<group>"; };
+		B78AC95B2C25901500CE46BA /* TPUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPUtils.swift; sourceTree = "<group>"; };
+		B78AC95D2C25910F00CE46BA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B78AC9712C2BD7E400CE46BA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B7C1D9102C552DD600614A1E /* AIrtel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AIrtel-Info.plist"; sourceTree = "<group>"; };
+		B7C5BEE52C4A6DEB00E6B3EB /* Airtel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airtel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C5BEE82C4A6FA600E6B3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Airtel.storyboard; sourceTree = "<group>"; };
+		B7E3709A2DCB821B007E4F73 /* TerraPaySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TerraPaySDK.xcframework; path = ../../Sources/TerraPaySDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7C5BED62C4A6DEB00E6B3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E3709B2DCB821B007E4F73 /* TerraPaySDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71F0ACA2C25649C00BEA6CE = {
+			isa = PBXGroup;
+			children = (
+				B71F0AD52C25649C00BEA6CE /* TPWallet */,
+				B7C252BB2DC9E3ED00464F2A /* Frameworks */,
+				B71F0AD42C25649C00BEA6CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B71F0AD42C25649C00BEA6CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7C5BEE52C4A6DEB00E6B3EB /* Airtel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B71F0AD52C25649C00BEA6CE /* TPWallet */ = {
+			isa = PBXGroup;
+			children = (
+				B7C1D9102C552DD600614A1E /* AIrtel-Info.plist */,
+				B78AC95D2C25910F00CE46BA /* AppDelegate.swift */,
+				B76DF2D12C3271AC002652BF /* TPNetworkManager.swift */,
+				B78AC95B2C25901500CE46BA /* TPUtils.swift */,
+				B78AC94E2C257DDC00CE46BA /* TPDashboardViewController.swift */,
+				B78AC9712C2BD7E400CE46BA /* UIView+Extension.swift */,
+				B71F0ADC2C25649C00BEA6CE /* Main.storyboard */,
+				B71F0ADF2C25649E00BEA6CE /* Assets.xcassets */,
+				B7C5BEE72C4A6FA600E6B3EB /* Airtel.storyboard */,
+				B71F0AE42C25649E00BEA6CE /* Info.plist */,
+			);
+			path = TPWallet;
+			sourceTree = "<group>";
+		};
+		B7C252BB2DC9E3ED00464F2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7E3709A2DCB821B007E4F73 /* TerraPaySDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7C5BEBA2C4A6DEB00E6B3EB /* Airtel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C5BEE22C4A6DEB00E6B3EB /* Build configuration list for PBXNativeTarget "Airtel" */;
+			buildPhases = (
+				B7C5BEBC2C4A6DEB00E6B3EB /* Sources */,
+				B7C5BED62C4A6DEB00E6B3EB /* Frameworks */,
+				B7C5BED82C4A6DEB00E6B3EB /* Resources */,
+				B7C5BEE12C4A6DEB00E6B3EB /* ShellScript */,
+				B7C24E9E2DC8B6FC00464F2A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airtel;
+			productName = TPWallet;
+			productReference = B7C5BEE52C4A6DEB00E6B3EB /* Airtel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B71F0ACB2C25649C00BEA6CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = B71F0ACE2C25649C00BEA6CE /* Build configuration list for PBXProject "TPWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B71F0ACA2C25649C00BEA6CE;
+			packageReferences = (
+			);
+			productRefGroup = B71F0AD42C25649C00BEA6CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7C5BEBA2C4A6DEB00E6B3EB /* Airtel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7C5BED82C4A6DEB00E6B3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C5BEE92C4A6FA600E6B3EB /* Airtel.storyboard in Resources */,
+				B7C5BEDC2C4A6DEB00E6B3EB /* Assets.xcassets in Resources */,
+				B7C1D9112C552DD600614A1E /* AIrtel-Info.plist in Resources */,
+				B7C5BEDE2C4A6DEB00E6B3EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7C5BEE12C4A6DEB00E6B3EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n#if which swiftlint >/dev/null; then\n#  swiftlint\n#else\n#  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7C5BEBC2C4A6DEB00E6B3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C5BEBD2C4A6DEB00E6B3EB /* TPNetworkManager.swift in Sources */,
+				B7C5BEC22C4A6DEB00E6B3EB /* TPDashboardViewController.swift in Sources */,
+				B7C5BEC42C4A6DEB00E6B3EB /* UIView+Extension.swift in Sources */,
+				B7C5BEC82C4A6DEB00E6B3EB /* TPUtils.swift in Sources */,
+				B7C5BECB2C4A6DEB00E6B3EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B71F0ADC2C25649C00BEA6CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71F0ADD2C25649C00BEA6CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7C5BEE72C4A6FA600E6B3EB /* Airtel.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C5BEE82C4A6FA600E6B3EB /* Base */,
+			);
+			name = Airtel.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B71F0AE52C25649E00BEA6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B71F0AE62C25649E00BEA6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7C5BEE32C4A6DEB00E6B3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Airtel;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = RP4Q3Y379J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TPWallet/Airtel-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TP Airtel";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Airtel.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrapay.airtel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B7C5BEE42C4A6DEB00E6B3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Airtel;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = RP4Q3Y379J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TPWallet/Airtel-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TP Airtel";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Airtel.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrapay.airtel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B71F0ACE2C25649C00BEA6CE /* Build configuration list for PBXProject "TPWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71F0AE52C25649E00BEA6CE /* Debug */,
+				B71F0AE62C25649E00BEA6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C5BEE22C4A6DEB00E6B3EB /* Build configuration list for PBXNativeTarget "Airtel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C5BEE32C4A6DEB00E6B3EB /* Debug */,
+				B7C5BEE42C4A6DEB00E6B3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B71F0ACB2C25649C00BEA6CE /* Project object */;
+}

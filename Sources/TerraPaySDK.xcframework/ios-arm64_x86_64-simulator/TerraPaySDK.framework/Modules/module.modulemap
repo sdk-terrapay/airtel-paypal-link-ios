@@ -1,0 +1,11 @@
+framework module TerraPaySDK {
+  umbrella header "TerraPaySDK.h"
+  export *
+
+  module * { export * }
+}
+
+module TerraPaySDK.Swift {
+  header "TerraPaySDK-Swift.h"
+  requires objc
+}
