@@ -45,12 +45,6 @@ Use the following import statement based on your project:
 import TerraPaySDK
 ```
 You can now access the SDK APIs in Swift, SwiftUI, or Objective-C.
-
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 
