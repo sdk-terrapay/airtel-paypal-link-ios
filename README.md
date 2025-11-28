@@ -15,23 +15,36 @@ TerraPaySDK is a lightweight and customizable SDK that allows seamless integrati
 - Xcode 15+
 
 ## 🔧 Steps to Add a Framework:
+1. Open Your Xcode Project
+* Open your project in Xcode.
 
-1. Download or Locate the Framework Ensure you have the "TerraPaySDK.xcframework" file ready.
-2. Drag and Drop into Xcode
-- Open your Xcode project.
-- Drag the "TerraPaySDK.xcframework" file into your project’s Project Navigator (left panel).
-- Choose "Copy items if needed" to ensure the framework is embedded properly.
-3. Add Framework to Linked Libraries
-- Click on your project in the Project Navigator.
-- Navigate to "General" > "Frameworks, Libraries, and Embedded Content".
-- Click the "+" button and select "TerraPaySDK.xcframework".
-4. Verify Build Settings
-- Go to your project’s Build Settings tab.
-- Search for "Framework Search Paths" and ensure the framework’s directory is included.   
-5. Embed & Sign
-- In "General" > "Frameworks, Libraries, and Embedded Content", set the framework to "Embed & Sign".
-6. Import the Framework in Code
-- Use import FrameworkName in Swift or Objective-C or SwiftUI to access the framework’s APIs.
+2. Add the Swift Package
+* From the top menu, go to File → Add Packages…
+* In the search bar, paste the TerraPay SDK repository URL:
+    https://github.com/sdk-terrapay/airtel-paypal-link-ios.git
+* Select the appropriate version / branch / commit as shared.
+* Click Add Package.
+
+3. Select the Target
+* When prompted, select your application target where the SDK should be added.
+* Click Add Package to complete the setup.
+
+4. Verify Framework Linking
+* Select your project in the Project Navigator.
+* Go to General → Frameworks, Libraries, and Embedded Content.
+* Ensure TerraPaySDK appears in the list.
+* Confirm the embedding option is set to Embed & Sign (if required).
+
+5. Verify Build Settings
+* Go to the Build Settings tab.
+* Ensure no manual Framework Search Paths are required (SPM manages this automatically).
+
+6. Import the SDK in Code
+Use the following import statement based on your project:
+```swift
+import TerraPaySDK
+```
+You can now access the SDK APIs in Swift, SwiftUI, or Objective-C.
 
 <br>
 <br>
