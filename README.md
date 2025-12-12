@@ -55,6 +55,7 @@ TerraPaySDK is a lightweight and customizable SDK that allows seamless integrati
 ## config params validation as below
 - dialCode             (Required) Must match the pattern ^\+\d+$
 - msisdn               (Required) Must contain only digits; length validated against country-specific rules.
+- subscriberName       (Required) Must not be empty.
 - walletName           (Required) Must not be empty.
 - currency             (Required) Must be a valid ISO 4217 currency code.
 - countryCode          (Required) Must be a valid ISO 3166-1 alpha-2 country code.
@@ -80,6 +81,7 @@ import TerraPaySDK
 let config = TerrapaySDKConfig(controller: self,
                                        dialCode: "+254",
                                        msisdn: "792474540",
+                                       subscriberName: "Giri Babu",
                                        walletName: "Airtel Money Wallet",
                                        currency: "KES",
                                        countryCode: "KE",
@@ -130,6 +132,7 @@ func application(_ application: UIApplication,
 TerrapaySDKConfig *config = [[TerrapaySDKConfig alloc] initWithController:self
                                                                      dialCode:@"+254"
                                                                        msisdn:@"792474540"
+                                                               subscriberName:@"Giri Babu"
                                                                    walletName:@"Airtel Money Wallet"
                                                                      currency:@"KES"
                                                                   countryCode:@"KE"
@@ -189,6 +192,7 @@ import TerraPaySDK
 let config = TerrapaySDKConfig(controller: viewcontroller,
                                 dialCode: "+254",
                                 msisdn: "792474540",
+                                subscriberName: "Giri Babu",
                                 walletName: "Airtel Money Wallet",
                                 currency: "KES",
                                 countryCode: "KE",
