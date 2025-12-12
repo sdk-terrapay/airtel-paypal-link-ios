@@ -21,6 +21,7 @@ import _SwiftConcurrencyShims
   @objc final public let controller: UIKit.UIViewController
   @objc final public let dialCode: Swift.String
   @objc final public let msisdn: Swift.String
+  @objc public var subscriberName: Swift.String
   @objc final public let walletName: Swift.String
   @objc final public let currency: Swift.String
   @objc final public let countryCode: Swift.String
@@ -31,7 +32,7 @@ import _SwiftConcurrencyShims
   @objc public var topUpLabel: Swift.String
   @objc public var termsConditionsUrl: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc public init(controller: UIKit.UIViewController, dialCode: Swift.String, msisdn: Swift.String, walletName: Swift.String, currency: Swift.String, countryCode: Swift.String, primaryColor: Swift.String, secondaryColor: Swift.String, email: Swift.String? = nil, topUpLabel: Swift.String = "Top Up", withdrawLabel: Swift.String = "Withdraw", termsConditionsUrl: Swift.String? = nil)
+  @objc public init(controller: UIKit.UIViewController, dialCode: Swift.String, msisdn: Swift.String, subscriberName: Swift.String, walletName: Swift.String, currency: Swift.String, countryCode: Swift.String, primaryColor: Swift.String, secondaryColor: Swift.String, email: Swift.String? = nil, topUpLabel: Swift.String = "Top Up", withdrawLabel: Swift.String = "Withdraw", termsConditionsUrl: Swift.String? = nil)
   #endif
   @objc deinit
 }

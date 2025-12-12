@@ -38,6 +38,7 @@
     TerrapaySDKConfig *config = [[TerrapaySDKConfig alloc] initWithController:self
                                                                      dialCode:@"+254"
                                                                        msisdn:@"792474540"
+                                                               subscriberName:@"Giri Babu"
                                                                    walletName:@"Airtel Money Wallet"
                                                                      currency:@"KES"
                                                                   countryCode:@"KE"

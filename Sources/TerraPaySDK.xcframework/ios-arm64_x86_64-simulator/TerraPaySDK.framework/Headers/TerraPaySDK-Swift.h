@@ -340,6 +340,7 @@ SWIFT_CLASS("_TtC11TerraPaySDK17TerrapaySDKConfig")
 @property (nonatomic, readonly, strong) UIViewController * _Nonnull controller;
 @property (nonatomic, readonly, copy) NSString * _Nonnull dialCode;
 @property (nonatomic, readonly, copy) NSString * _Nonnull msisdn;
+@property (nonatomic, copy) NSString * _Nonnull subscriberName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull walletName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull currency;
 @property (nonatomic, readonly, copy) NSString * _Nonnull countryCode;
@@ -349,7 +350,7 @@ SWIFT_CLASS("_TtC11TerraPaySDK17TerrapaySDKConfig")
 @property (nonatomic, copy) NSString * _Nonnull withdrawLabel;
 @property (nonatomic, copy) NSString * _Nonnull topUpLabel;
 @property (nonatomic, copy) NSString * _Nullable termsConditionsUrl;
-- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn subscriberName:(NSString * _Nonnull)subscriberName walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -704,6 +705,7 @@ SWIFT_CLASS("_TtC11TerraPaySDK17TerrapaySDKConfig")
 @property (nonatomic, readonly, strong) UIViewController * _Nonnull controller;
 @property (nonatomic, readonly, copy) NSString * _Nonnull dialCode;
 @property (nonatomic, readonly, copy) NSString * _Nonnull msisdn;
+@property (nonatomic, copy) NSString * _Nonnull subscriberName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull walletName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull currency;
 @property (nonatomic, readonly, copy) NSString * _Nonnull countryCode;
@@ -713,7 +715,7 @@ SWIFT_CLASS("_TtC11TerraPaySDK17TerrapaySDKConfig")
 @property (nonatomic, copy) NSString * _Nonnull withdrawLabel;
 @property (nonatomic, copy) NSString * _Nonnull topUpLabel;
 @property (nonatomic, copy) NSString * _Nullable termsConditionsUrl;
-- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn subscriberName:(NSString * _Nonnull)subscriberName walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
