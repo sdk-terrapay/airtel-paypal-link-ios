@@ -142,11 +142,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FO8rkOuY8qSKNSVddL9jx5rwJ64=
+		fiL23/I9UtfWymCAXplXK4btl0s=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/zT28PmSXAU0yBMzU1zIXs5SzgE=
+		U4JGqSnYir0yEgUaX1ONsHaQcKI=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i7epKWn1hkfnJgKgF9cz2i9cgEQ=
+		4L5+3D2v6aA8tmvtDsWTEBUv3Fc=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/zT28PmSXAU0yBMzU1zIXs5SzgE=
+		U4JGqSnYir0yEgUaX1ONsHaQcKI=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EN3/KsbRtcwR0wcP5SiOnV9GEGM=
+		NkseuO3MD0Zl/DFZIzZxo3+Q37I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -474,7 +474,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRthy36Tvyd8iwOsK4d7HcgbCTgNYD0/V5GGGODLLDU=
+			RQdOBVVpSocxz/2yV8juhGUUPJhGNUDb7JywsHHaW+A=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -502,14 +502,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fcx73xvZyOg1D4HTly2gn3wX3sQx7HnwAsqxC9eexg0=
+			xro4ZeNEULWhHGuLwoGNVYJ9M6WuVON4FwyeAzqeM54=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRthy36Tvyd8iwOsK4d7HcgbCTgNYD0/V5GGGODLLDU=
+			RQdOBVVpSocxz/2yV8juhGUUPJhGNUDb7JywsHHaW+A=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -537,7 +537,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SgNltX1NfTGc66xesp7LM3eYhB62I8e046psvRrFC4I=
+			3WBS0VMNHpeVitwHjtqA424m8ShP6T51d5RP+/fPqr4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
