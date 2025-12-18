@@ -2942,63 +2942,63 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "BooleanLiteral",
-      "offset": 26819,
+      "offset": 26780,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "IntegerLiteral",
-      "offset": 29130,
+      "offset": 29091,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "IntegerLiteral",
-      "offset": 30050,
+      "offset": 30011,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "IntegerLiteral",
-      "offset": 30696,
+      "offset": 30657,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "IntegerLiteral",
-      "offset": 31304,
+      "offset": 31265,
       "length": 8,
       "value": "0x000000"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "IntegerLiteral",
-      "offset": 31337,
+      "offset": 31298,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "FloatLiteral",
-      "offset": 36492,
+      "offset": 36453,
       "length": 6,
       "value": "-400.0"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "FloatLiteral",
-      "offset": 36535,
+      "offset": 36496,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/CustomViews\/TPAlertView.swift",
       "kind": "FloatLiteral",
-      "offset": 36575,
+      "offset": 36536,
       "length": 3,
       "value": "0.2"
     },
@@ -3019,7 +3019,7 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/UIFont+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 2909,
+      "offset": 2472,
       "length": 2,
       "value": "18"
     },
@@ -3208,7 +3208,7 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13129,
+      "offset": 13123,
       "length": 5,
       "value": "false"
     },
@@ -3285,14 +3285,14 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/TopUp\/TPTopUpViewController.swift",
       "kind": "Array",
-      "offset": 955,
+      "offset": 885,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/TopUp\/TPTopUpViewController.swift",
       "kind": "Array",
-      "offset": 989,
+      "offset": 919,
       "length": 2,
       "value": "[]"
     },
@@ -3558,28 +3558,28 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/Withdrawal\/TPWithdrawViewController.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 203,
       "length": 26,
       "value": "\"TPWithdrawViewController\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/Withdrawal\/TPWithdrawViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
+      "offset": 258,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/Withdrawal\/TPWithdrawViewController.swift",
       "kind": "Array",
-      "offset": 404,
+      "offset": 374,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/Withdrawal\/TPWithdrawViewController.swift",
       "kind": "Array",
-      "offset": 438,
+      "offset": 408,
       "length": 2,
       "value": "[]"
     },
