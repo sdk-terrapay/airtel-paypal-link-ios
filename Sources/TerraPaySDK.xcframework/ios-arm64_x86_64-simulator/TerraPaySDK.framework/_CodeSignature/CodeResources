@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/TerraPaySDK-Swift.h</key>
 		<data>
-		2Wz+zc5tA7kjuqTigJEWUQz/kk4=
+		ZdSMnygivexgcUaDgiCSclpNVlc=
 		</data>
 		<key>Headers/TerraPaySDK.h</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OeHUu5mFzbK9emIBwT5vJm36x3g=
+		W7A6eA/RZtOLDUlocjQHrNYNBvk=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GN9RcIb4N346ts5sH+M+cehlHfQ=
+		xM9/ctBJoiGNoXH1PQruDrNdXxk=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -158,19 +158,19 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GN9RcIb4N346ts5sH+M+cehlHfQ=
+		xM9/ctBJoiGNoXH1PQruDrNdXxk=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zd6Mlnp+FLFnfDnYLQt5tAevRfk=
+		CdNp0pHD3Ax+A2RBZYhrmF+dkdI=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OeHUu5mFzbK9emIBwT5vJm36x3g=
+		W7A6eA/RZtOLDUlocjQHrNYNBvk=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FqIrVaLPrEp8zVlW5P51NSv7Mlo=
+		tmiZfVWZ80x42suL1/CiczQCSNU=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FqIrVaLPrEp8zVlW5P51NSv7Mlo=
+		tmiZfVWZ80x42suL1/CiczQCSNU=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qHKI/Y6cHaphTEb2kXQV7Yg/uDM=
+		7E5SfWeWvpyus6I9MUH2Ro3t+aU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -460,7 +460,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FOKMKB9oKr3R8mndNawH6RlBGSUdczs9pkKmEdYE5qU=
+			s6Pxx5QWhEQsI3ujesFas2WiJ7OPx+/TqjPAsLqzb7U=
 			</data>
 		</dict>
 		<key>Headers/TerraPaySDK.h</key>
@@ -474,14 +474,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kf/qIn8roMG7S8oXfQIniUMMVzhBEL3bHY6hhXvENfs=
+			33blQ4ePCZu9NQ0Vvx8skPDQGb0H3XsTOnCwPv7wqEw=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xa/r/kxmMXRdH4Iwude7EEG6Puzsh5chFN7drUmljX8=
+			TVyK4rTanQE1Eeqp+EfT6JaoYi9dhuKHUhXTwSB5r2I=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -495,28 +495,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xa/r/kxmMXRdH4Iwude7EEG6Puzsh5chFN7drUmljX8=
+			TVyK4rTanQE1Eeqp+EfT6JaoYi9dhuKHUhXTwSB5r2I=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWbjRk5AhbktlL8jySK4sADlPeJeJf/nzKm4Zu7AXpk=
+			iRtMWieufO0QM64Zqyke0D5IWgy3pgk5HfbIgrrGFdg=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kf/qIn8roMG7S8oXfQIniUMMVzhBEL3bHY6hhXvENfs=
+			33blQ4ePCZu9NQ0Vvx8skPDQGb0H3XsTOnCwPv7wqEw=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lRwdck6Lr7bhOpFPmLzm2jt/D5oAUl0VuSbenumgs5c=
+			cWDjLF5v6qtl4M8TOfNXkTKtmtkzSwJHdrH/ek3E7r8=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -530,14 +530,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lRwdck6Lr7bhOpFPmLzm2jt/D5oAUl0VuSbenumgs5c=
+			cWDjLF5v6qtl4M8TOfNXkTKtmtkzSwJHdrH/ek3E7r8=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2iV+m5bmik9m9CnF3QVhElPMuqPhWhDANtLfq82vb9Q=
+			29T08eHTF7iXBXUUF7PD2PpYsxPki73aFGCE7vLV/xQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -323,7 +323,6 @@ SWIFT_CLASS("_TtC11TerraPaySDK17TerraPayErrorInfo")
 @interface TerraPayErrorInfo : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull code;
 @property (nonatomic, readonly, copy) NSString * _Nonnull message;
-- (nonnull instancetype)initWithCode:(NSString * _Nonnull)code message:(NSString * _Nonnull)message OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -688,7 +687,6 @@ SWIFT_CLASS("_TtC11TerraPaySDK17TerraPayErrorInfo")
 @interface TerraPayErrorInfo : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull code;
 @property (nonatomic, readonly, copy) NSString * _Nonnull message;
-- (nonnull instancetype)initWithCode:(NSString * _Nonnull)code message:(NSString * _Nonnull)message OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
