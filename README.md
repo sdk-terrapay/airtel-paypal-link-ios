@@ -34,8 +34,8 @@ curl --location 'https://api-pp-sandbox.terrapay.com/pullremittances/v1/oauth2/t
 Sample Response
 ```swift
 {
-  "access_token": "xxxxxxxxxxxxxxxxxxxxxx",
-  "refresh_token": "xxxxxxxxxxxxxxxxxxx",
+  "access_token": "YOUR_ACCESS_TOKEN",
+  "refresh_token": "YOUR_REFRESH_TOKEN",
   "expires_in": 28800,
   "token_type": "Bearer"
 }
@@ -114,10 +114,10 @@ import TerraPaySDK
 
 ```swift
 let config = TerrapaySDKConfig(controller: self,
-                                       accessToken: "xxxxxxxxxxxxxxxxxxx",
-                                       refreshToken: "xxxxxxxxxxxxxxxxxxx==",
+                                       accessToken: "YOUR_ACCESS_TOKEN",
+                                       refreshToken: "YOUR_REFRESH_TOKEN",
                                        dialCode: "+254",
-                                       msisdn: "792474540",
+                                       msisdn: "123456789",
                                        subscriberName: "Giri Babu",
                                        walletName: "Airtel Money Wallet",
                                        currency: "KES",
@@ -167,10 +167,10 @@ func application(_ application: UIApplication,
 
 ```objc
 TerrapaySDKConfig *config = [[TerrapaySDKConfig alloc] initWithController:self
-                                                                  accessToken:@"xxxxxxxxxxxxxxxxxxx",
-                                                                 refreshToken:@"xxxxxxxxxxxxxxxxxxx==",
+                                                                  accessToken:@"YOUR_ACCESS_TOKEN",
+                                                                 refreshToken:@"YOUR_REFRESH_TOKEN",
                                                                      dialCode:@"+254"
-                                                                       msisdn:@"792474540"
+                                                                       msisdn:@"123456789"
                                                                subscriberName:@"Giri Babu"
                                                                    walletName:@"Airtel Money Wallet"
                                                                      currency:@"KES"
@@ -229,10 +229,10 @@ import TerraPaySDK
 
 ```SwiftUI
 let config = TerrapaySDKConfig(controller: viewcontroller,
-                                accessToken: "xxxxxxxxxxxxxxxxxxx",
-                                refreshToken: "xxxxxxxxxxxxxxxxxxx==",
+                                accessToken: "YOUR_ACCESS_TOKEN",
+                                refreshToken: "YOUR_REFRESH_TOKEN",
                                 dialCode: "+254",
-                                msisdn: "792474540",
+                                msisdn: "123456789",
                                 subscriberName: "Giri Babu",
                                 walletName: "Airtel Money Wallet",
                                 currency: "KES",
