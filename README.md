@@ -9,6 +9,39 @@ TerraPaySDK is a lightweight and customizable SDK that allows seamless integrati
 - Launch SDK with a single entry point.
 - Easily embeddable into any iOS app.
 
+## 🔐 Authentication (OAuth2)
+
+TerraPay SDK requires OAuth2 authentication.
+The partner application must generate both access token and refresh token using the client_credentials flow before launching the SDK.
+
+Token Generation Endpoint
+
+```swift
+POST https://api-pp-sandbox.terrapay.com/pullremittances/v1/oauth2/token
+```
+
+cURL Request
+```swift
+curl --location 'https://api-pp-sandbox.terrapay.com/pullremittances/v1/oauth2/token' \
+--header 'Content-Type: application/json' \
+--header 'x-msisdn: +254123456789' \
+--header 'Authorization: Basic <Base64(clientId:clientSecret)>' \
+--data-raw '{
+  "grant_type": "client_credentials"
+}'
+```
+
+Sample Response
+```swift
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
+  "refresh_token": "dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
+  "expires_in": 28800,
+  "token_type": "Bearer"
+}
+```
+Note: Both access_token and refresh_token must be passed to the SDK during initialization.
+
 ## 📲 Requirements
 - iOS 13.0+
 - Swift 6+
@@ -53,6 +86,8 @@ TerraPaySDK is a lightweight and customizable SDK that allows seamless integrati
 
 ```swift
 ## config params validation as below
+- accessToken          (Required) OAuth2 access token generated from partner backend.
+- refreshToken         (Required) OAuth2 refresh token used to regenerate the access token.
 - dialCode             (Required) Must match the pattern ^\+\d+$
 - msisdn               (Required) Must contain only digits; length validated against country-specific rules.
 - subscriberName       (Required) Must not be empty.
@@ -79,6 +114,8 @@ import TerraPaySDK
 
 ```swift
 let config = TerrapaySDKConfig(controller: self,
+                                       accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
+                                       refreshToken: "dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
                                        dialCode: "+254",
                                        msisdn: "792474540",
                                        subscriberName: "Giri Babu",
@@ -130,6 +167,8 @@ func application(_ application: UIApplication,
 
 ```objc
 TerrapaySDKConfig *config = [[TerrapaySDKConfig alloc] initWithController:self
+                                                                  accessToken:@"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
+                                                                 refreshToken:@"dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
                                                                      dialCode:@"+254"
                                                                        msisdn:@"792474540"
                                                                subscriberName:@"Giri Babu"
@@ -190,6 +229,8 @@ import TerraPaySDK
 
 ```SwiftUI
 let config = TerrapaySDKConfig(controller: viewcontroller,
+                                accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
+                                refreshToken: "dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
                                 dialCode: "+254",
                                 msisdn: "792474540",
                                 subscriberName: "Giri Babu",
