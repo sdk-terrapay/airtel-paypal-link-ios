@@ -34,8 +34,8 @@ curl --location 'https://api-pp-sandbox.terrapay.com/pullremittances/v1/oauth2/t
 Sample Response
 ```swift
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
-  "refresh_token": "dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
+  "access_token": "xxxxxxxxxxxxxxxxxxxxxx",
+  "refresh_token": "xxxxxxxxxxxxxxxxxxx",
   "expires_in": 28800,
   "token_type": "Bearer"
 }
@@ -114,8 +114,8 @@ import TerraPaySDK
 
 ```swift
 let config = TerrapaySDKConfig(controller: self,
-                                       accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
-                                       refreshToken: "dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
+                                       accessToken: "xxxxxxxxxxxxxxxxxxx",
+                                       refreshToken: "xxxxxxxxxxxxxxxxxxx==",
                                        dialCode: "+254",
                                        msisdn: "792474540",
                                        subscriberName: "Giri Babu",
@@ -167,8 +167,8 @@ func application(_ application: UIApplication,
 
 ```objc
 TerrapaySDKConfig *config = [[TerrapaySDKConfig alloc] initWithController:self
-                                                                  accessToken:@"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
-                                                                 refreshToken:@"dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
+                                                                  accessToken:@"xxxxxxxxxxxxxxxxxxx",
+                                                                 refreshToken:@"xxxxxxxxxxxxxxxxxxx==",
                                                                      dialCode:@"+254"
                                                                        msisdn:@"792474540"
                                                                subscriberName:@"Giri Babu"
@@ -229,8 +229,8 @@ import TerraPaySDK
 
 ```SwiftUI
 let config = TerrapaySDKConfig(controller: viewcontroller,
-                                accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ABC123XYZ456DEF789",
-                                refreshToken: "dGhpc2lzYXJhbmRvbXJlZnJlc2h0b2tlbjEyMw==",
+                                accessToken: "xxxxxxxxxxxxxxxxxxx",
+                                refreshToken: "xxxxxxxxxxxxxxxxxxx==",
                                 dialCode: "+254",
                                 msisdn: "792474540",
                                 subscriberName: "Giri Babu",
