@@ -87,7 +87,7 @@ Note: Both access_token and refresh_token must be passed to the SDK during initi
 ```swift
 ## config params validation as below
 - accessToken          (Required) OAuth2 access token generated from partner backend.
-- refreshToken         (Required) OAuth2 refresh token used to regenerate the access token.
+- refreshToken         (Required) OAuth2 refresh token generated from partner backend.
 - dialCode             (Required) Must match the pattern ^\+\d+$
 - msisdn               (Required) Must contain only digits; length validated against country-specific rules.
 - subscriberName       (Required) Must not be empty.
