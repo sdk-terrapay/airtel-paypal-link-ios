@@ -24,7 +24,7 @@ cURL Request
 ```swift
 curl --location 'https://api-pp-sandbox.terrapay.com/pullremittances/v1/oauth2/token' \
 --header 'Content-Type: application/json' \
---header 'x-msisdn: +254123456789' \
+--header 'x-msisdn: +254xxxxxxxxx' \
 --header 'Authorization: Basic <Base64(clientId:clientSecret)>' \
 --data-raw '{
   "grant_type": "client_credentials"
@@ -38,11 +38,14 @@ Sample Response
     "refresh_token": "YOUR_REFRESH_TOKEN",
     "expires_in": 300,
     "token_type": "Bearer",
-    "responseCode": "8000",
-    "responseMessage": "token generated successfully",
-    "msisdn": "+254xxxxxxxxx"
+    "msisdn": "+254xxxxxxxxx",
+    "status": {
+        "responseCode": "8000",
+        "responseMessage": "Token generated successfully"
+    }
 }
 ```
+
 Note: Both access_token and refresh_token must be passed to the SDK during initialization.
 
 ## 📲 Requirements
