@@ -17,22 +17,24 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @objcMembers final public class TerrapaySDKConfig : ObjectiveC.NSObject {
+@objc @objcMembers final public class TerraPaySDKConfig : ObjectiveC.NSObject {
+  @objc final public let accessToken: Swift.String
+  @objc final public let refreshToken: Swift.String
   @objc final public let controller: UIKit.UIViewController
   @objc final public let dialCode: Swift.String
   @objc final public let msisdn: Swift.String
-  @objc final public var subscriberName: Swift.String
+  @objc final public let subscriberName: Swift.String
   @objc final public let walletName: Swift.String
   @objc final public let currency: Swift.String
   @objc final public let countryCode: Swift.String
   @objc final public let primaryColor: Swift.String
   @objc final public let secondaryColor: Swift.String
-  @objc final public var email: Swift.String?
-  @objc final public var withdrawLabel: Swift.String
-  @objc final public var topUpLabel: Swift.String
-  @objc final public var termsConditionsUrl: Swift.String?
+  @objc final public let email: Swift.String?
+  @objc final public let withdrawLabel: Swift.String
+  @objc final public let topUpLabel: Swift.String
+  @objc final public let termsConditionsUrl: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc public init(controller: UIKit.UIViewController, dialCode: Swift.String, msisdn: Swift.String, subscriberName: Swift.String, walletName: Swift.String, currency: Swift.String, countryCode: Swift.String, primaryColor: Swift.String, secondaryColor: Swift.String, email: Swift.String? = nil, topUpLabel: Swift.String = "Top Up", withdrawLabel: Swift.String = "Withdraw", termsConditionsUrl: Swift.String? = nil)
+  @objc public init(controller: UIKit.UIViewController, accessToken: Swift.String, refreshToken: Swift.String, dialCode: Swift.String, msisdn: Swift.String, subscriberName: Swift.String, walletName: Swift.String, currency: Swift.String, countryCode: Swift.String, primaryColor: Swift.String, secondaryColor: Swift.String, email: Swift.String? = nil, topUpLabel: Swift.String = "Top Up", withdrawLabel: Swift.String = "Withdraw", termsConditionsUrl: Swift.String? = nil)
   #endif
   @objc deinit
 }
@@ -45,6 +47,7 @@ import _SwiftConcurrencyShims
   case success
   case failure
   case cancelled
+  case closed
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
   #endif
@@ -56,7 +59,7 @@ import _SwiftConcurrencyShims
 public typealias TerraPayCompletionHandler = (TerraPaySDK.TerraPayResultType, TerraPaySDK.TerraPayErrorInfo?) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class TerraPayClient : ObjectiveC.NSObject {
   @objc public static let shared: TerraPaySDK.TerraPayClient
-  @objc final public func launch(with config: TerraPaySDK.TerrapaySDKConfig, completionHandler: @escaping TerraPaySDK.TerraPayCompletionHandler)
+  @objc final public func launch(with config: TerraPaySDK.TerraPaySDKConfig, completionHandler: @escaping TerraPaySDK.TerraPayCompletionHandler)
   @objc final public func handleRedirect(url: Foundation.URL)
   @objc deinit
 }

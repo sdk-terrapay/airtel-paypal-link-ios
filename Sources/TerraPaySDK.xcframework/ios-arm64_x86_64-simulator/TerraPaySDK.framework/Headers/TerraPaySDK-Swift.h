@@ -304,7 +304,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class TerrapaySDKConfig;
+@class TerraPaySDKConfig;
 enum TerraPayResultType : NSInteger;
 @class TerraPayErrorInfo;
 @class NSURL;
@@ -314,7 +314,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TerraPayClie
 + (TerraPayClient * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)launchWith:(TerrapaySDKConfig * _Nonnull)config completionHandler:(void (^ _Nonnull)(enum TerraPayResultType, TerraPayErrorInfo * _Nullable))completionHandler;
+- (void)launchWith:(TerraPaySDKConfig * _Nonnull)config completionHandler:(void (^ _Nonnull)(enum TerraPayResultType, TerraPayErrorInfo * _Nullable))completionHandler;
 - (void)handleRedirectWithUrl:(NSURL * _Nonnull)url;
 @end
 
@@ -331,25 +331,28 @@ typedef SWIFT_ENUM(NSInteger, TerraPayResultType, open) {
   TerraPayResultTypeSuccess = 0,
   TerraPayResultTypeFailure = 1,
   TerraPayResultTypeCancelled = 2,
+  TerraPayResultTypeClosed = 3,
 };
 
 @class UIViewController;
-SWIFT_CLASS("_TtC11TerraPaySDK17TerrapaySDKConfig")
-@interface TerrapaySDKConfig : NSObject
+SWIFT_CLASS("_TtC11TerraPaySDK17TerraPaySDKConfig")
+@interface TerraPaySDKConfig : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull accessToken;
+@property (nonatomic, readonly, copy) NSString * _Nonnull refreshToken;
 @property (nonatomic, readonly, strong) UIViewController * _Nonnull controller;
 @property (nonatomic, readonly, copy) NSString * _Nonnull dialCode;
 @property (nonatomic, readonly, copy) NSString * _Nonnull msisdn;
-@property (nonatomic, copy) NSString * _Nonnull subscriberName;
+@property (nonatomic, readonly, copy) NSString * _Nonnull subscriberName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull walletName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull currency;
 @property (nonatomic, readonly, copy) NSString * _Nonnull countryCode;
 @property (nonatomic, readonly, copy) NSString * _Nonnull primaryColor;
 @property (nonatomic, readonly, copy) NSString * _Nonnull secondaryColor;
-@property (nonatomic, copy) NSString * _Nullable email;
-@property (nonatomic, copy) NSString * _Nonnull withdrawLabel;
-@property (nonatomic, copy) NSString * _Nonnull topUpLabel;
-@property (nonatomic, copy) NSString * _Nullable termsConditionsUrl;
-- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn subscriberName:(NSString * _Nonnull)subscriberName walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSString * _Nullable email;
+@property (nonatomic, readonly, copy) NSString * _Nonnull withdrawLabel;
+@property (nonatomic, readonly, copy) NSString * _Nonnull topUpLabel;
+@property (nonatomic, readonly, copy) NSString * _Nullable termsConditionsUrl;
+- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller accessToken:(NSString * _Nonnull)accessToken refreshToken:(NSString * _Nonnull)refreshToken dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn subscriberName:(NSString * _Nonnull)subscriberName walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -668,7 +671,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class TerrapaySDKConfig;
+@class TerraPaySDKConfig;
 enum TerraPayResultType : NSInteger;
 @class TerraPayErrorInfo;
 @class NSURL;
@@ -678,7 +681,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TerraPayClie
 + (TerraPayClient * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)launchWith:(TerrapaySDKConfig * _Nonnull)config completionHandler:(void (^ _Nonnull)(enum TerraPayResultType, TerraPayErrorInfo * _Nullable))completionHandler;
+- (void)launchWith:(TerraPaySDKConfig * _Nonnull)config completionHandler:(void (^ _Nonnull)(enum TerraPayResultType, TerraPayErrorInfo * _Nullable))completionHandler;
 - (void)handleRedirectWithUrl:(NSURL * _Nonnull)url;
 @end
 
@@ -695,25 +698,28 @@ typedef SWIFT_ENUM(NSInteger, TerraPayResultType, open) {
   TerraPayResultTypeSuccess = 0,
   TerraPayResultTypeFailure = 1,
   TerraPayResultTypeCancelled = 2,
+  TerraPayResultTypeClosed = 3,
 };
 
 @class UIViewController;
-SWIFT_CLASS("_TtC11TerraPaySDK17TerrapaySDKConfig")
-@interface TerrapaySDKConfig : NSObject
+SWIFT_CLASS("_TtC11TerraPaySDK17TerraPaySDKConfig")
+@interface TerraPaySDKConfig : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull accessToken;
+@property (nonatomic, readonly, copy) NSString * _Nonnull refreshToken;
 @property (nonatomic, readonly, strong) UIViewController * _Nonnull controller;
 @property (nonatomic, readonly, copy) NSString * _Nonnull dialCode;
 @property (nonatomic, readonly, copy) NSString * _Nonnull msisdn;
-@property (nonatomic, copy) NSString * _Nonnull subscriberName;
+@property (nonatomic, readonly, copy) NSString * _Nonnull subscriberName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull walletName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull currency;
 @property (nonatomic, readonly, copy) NSString * _Nonnull countryCode;
 @property (nonatomic, readonly, copy) NSString * _Nonnull primaryColor;
 @property (nonatomic, readonly, copy) NSString * _Nonnull secondaryColor;
-@property (nonatomic, copy) NSString * _Nullable email;
-@property (nonatomic, copy) NSString * _Nonnull withdrawLabel;
-@property (nonatomic, copy) NSString * _Nonnull topUpLabel;
-@property (nonatomic, copy) NSString * _Nullable termsConditionsUrl;
-- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn subscriberName:(NSString * _Nonnull)subscriberName walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSString * _Nullable email;
+@property (nonatomic, readonly, copy) NSString * _Nonnull withdrawLabel;
+@property (nonatomic, readonly, copy) NSString * _Nonnull topUpLabel;
+@property (nonatomic, readonly, copy) NSString * _Nullable termsConditionsUrl;
+- (nonnull instancetype)initWithController:(UIViewController * _Nonnull)controller accessToken:(NSString * _Nonnull)accessToken refreshToken:(NSString * _Nonnull)refreshToken dialCode:(NSString * _Nonnull)dialCode msisdn:(NSString * _Nonnull)msisdn subscriberName:(NSString * _Nonnull)subscriberName walletName:(NSString * _Nonnull)walletName currency:(NSString * _Nonnull)currency countryCode:(NSString * _Nonnull)countryCode primaryColor:(NSString * _Nonnull)primaryColor secondaryColor:(NSString * _Nonnull)secondaryColor email:(NSString * _Nullable)email topUpLabel:(NSString * _Nonnull)topUpLabel withdrawLabel:(NSString * _Nonnull)withdrawLabel termsConditionsUrl:(NSString * _Nullable)termsConditionsUrl OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

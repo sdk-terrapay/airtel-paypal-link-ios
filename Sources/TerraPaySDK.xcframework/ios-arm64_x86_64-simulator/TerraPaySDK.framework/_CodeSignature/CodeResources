@@ -14,11 +14,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Dri-fD-Vxv-view-hR2-oE-6SL.nib</key>
 		<data>
-		EsEXfrck2hpQJLQALx5QsKPtxzk=
+		/aqhm9jdLByDO55Zff31hA8lYlw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/FWa-LE-IsT-view-7Fm-r8-k68.nib</key>
 		<data>
-		x+D1UqFQrOmbI8s5Cmg2QIZw7hw=
+		TlZ9EnPMooMMkaBALRL7Z2SzQkg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -102,15 +102,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/fwg-4r-ykj-view-LNE-gH-KeC.nib</key>
 		<data>
-		iklTx4zQ+QCTnJpNMyk4UNBDrH4=
+		ZPGZ/nef/xwZfRGwgkMvXvjRme8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/p2d-us-XFx-view-gD9-cO-Ncm.nib</key>
 		<data>
-		eEQPs2VzgZxsKY5CoKvsfI+9blo=
+		uZ26QLfU4Q0R4vJ/BQ1EY+LbLlI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/pOn-TY-eeu-view-Rdb-Qf-dJZ.nib</key>
 		<data>
-		ZlRAuRlj5nvYVK+yUjPW6kYXIuQ=
+		jvciQLjumtaqYrY6l34y371LF9k=
 		</data>
 		<key>Base.lproj/Main.storyboardc/pWh-A2-sN7-view-pCY-l9-13L.nib</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/TerraPaySDK-Swift.h</key>
 		<data>
-		ZdSMnygivexgcUaDgiCSclpNVlc=
+		bwilIXHgU18NUxiJjpoVzq05uBg=
 		</data>
 		<key>Headers/TerraPaySDK.h</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sqdO97x6YCHijE6NBEnU3+iHrdc=
+		ZP1zDIz4C9wB4K/sHq+NzOIMJrA=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xM9/ctBJoiGNoXH1PQruDrNdXxk=
+		R2HXSl4OwJpo+2CKcnNfmKfCZ2k=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -158,19 +158,19 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xM9/ctBJoiGNoXH1PQruDrNdXxk=
+		R2HXSl4OwJpo+2CKcnNfmKfCZ2k=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ONF0HCq/vkTQ53z8zNWEvwmR1EA=
+		L9UByLo7INZcXkH4p0rTUDgnhVc=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sqdO97x6YCHijE6NBEnU3+iHrdc=
+		ZP1zDIz4C9wB4K/sHq+NzOIMJrA=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tmiZfVWZ80x42suL1/CiczQCSNU=
+		UT1ZlSCEn0bU8imbJDMznxnFTNo=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tmiZfVWZ80x42suL1/CiczQCSNU=
+		UT1ZlSCEn0bU8imbJDMznxnFTNo=
 		</data>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bZ2zBs5uw9sKhA07wlexih2glvc=
+		1IpmPfewKSZkkuSYCb2mZ/Czafs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -214,17 +214,21 @@
 		</data>
 		<key>TPTransactionViewCell.nib</key>
 		<data>
-		HzfFXQQwriu1w4itqhmDmqxKuro=
+		hfphsq/F+PJm0v9XeWCQxgQEBCw=
 		</data>
 		<key>TermsAndConditions.pdf</key>
 		<data>
 		iNjvIMhi83QdcIz4Tr/ChK1GQIs=
 		</data>
+		<key>client.p12</key>
+		<data>
+		N5PdJ2Q7zZgOkjYTPB1gddm20HA=
+		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z6TTKN6ERtAVVoTn7kdyJpfHKCM=
+			9otc5TSSEvPVuXVwe03l/auNQUc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -250,14 +254,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FTut8nZmyXHldoRlGpiQ8YRireCLkP4CmrabceAlX48=
+			ZggZAxNdoDeW0cpYcqUFwiSLmPqsy8TsNm/AsThJ044=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/FWa-LE-IsT-view-7Fm-r8-k68.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L26RB9lb/+T1WK4KUGlgMg0Uv9EgTPK9wZUVp4ROiSk=
+			+9X4iTExd6Jbc7kaT7ewcK/zKQA7ue/SVCjUpb9LLyo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -404,21 +408,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TFT7tSWyh2wwiQI739DkqjeIxmtO9RZaHjpapcE0d4E=
+			QoLWjGWvPe/oG4XG0FQ9/1fTtIIkY+4lVzZD7w0u66o=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/p2d-us-XFx-view-gD9-cO-Ncm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbO8x1d58TcxHiPSZeFStZlbImiaYIrIEpGHPfcAojw=
+			2zXnie/k9XiXMwI9iI9+sQNRfwVFZCxIjuaoHHcKsco=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/pOn-TY-eeu-view-Rdb-Qf-dJZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tpqqF2DVmNEPLZRUG8F/er4kZ+AGahjiCwK/LjOCSU4=
+			6su+2ho27/a4+ywq9gfjDFSBwEJJltvBKyoVMcWP/M4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/pWh-A2-sN7-view-pCY-l9-13L.nib</key>
@@ -460,7 +464,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s6Pxx5QWhEQsI3ujesFas2WiJ7OPx+/TqjPAsLqzb7U=
+			VUbiTDGfqK1fRxFgDA+PQMkWOp7YUtHPPYEULYkoFlI=
 			</data>
 		</dict>
 		<key>Headers/TerraPaySDK.h</key>
@@ -474,14 +478,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RoIfpGjWDQbL5eaNDm9fm6a9ZgxtxS8h5Zkcy3CT1xs=
+			HcMs4xs5udb770Mzacvdatrtu1KL0iWdLlfprHJ4Q+4=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TVyK4rTanQE1Eeqp+EfT6JaoYi9dhuKHUhXTwSB5r2I=
+			Oin7/rpCux2G3P4XN61+nIiXYRbH/unMETEF69qQzAQ=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -495,28 +499,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TVyK4rTanQE1Eeqp+EfT6JaoYi9dhuKHUhXTwSB5r2I=
+			Oin7/rpCux2G3P4XN61+nIiXYRbH/unMETEF69qQzAQ=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RNToAhYn//Xl2y6pXmR6wynKpuAstsYH1xEJz8P1K5w=
+			iM2HZIQZ8dtD451/kPJAzFytwrVT8iNa3RpzgTlq+2M=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RoIfpGjWDQbL5eaNDm9fm6a9ZgxtxS8h5Zkcy3CT1xs=
+			HcMs4xs5udb770Mzacvdatrtu1KL0iWdLlfprHJ4Q+4=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cWDjLF5v6qtl4M8TOfNXkTKtmtkzSwJHdrH/ek3E7r8=
+			IJjT3gs70R1G8IWgo/ejA91leysUeyBRsFIIHCX0vw0=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -530,14 +534,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cWDjLF5v6qtl4M8TOfNXkTKtmtkzSwJHdrH/ek3E7r8=
+			IJjT3gs70R1G8IWgo/ejA91leysUeyBRsFIIHCX0vw0=
 			</data>
 		</dict>
 		<key>Modules/TerraPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X78uSbuKmIzcnXS1Cvyul92FTirrbtqP2/FfElmZT4A=
+			gG04zHSabM7GHAPm3U6CEOuqkfUMMEAZmlthtsqza4w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -593,7 +597,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mV6Zos9auuILCthzS3NzimwfyattR7glB7HYLT7qV8I=
+			/h3qUJXA0+PoSBxC1EJ8bOD5hEpI9GgqDeOe0CtvW1A=
 			</data>
 		</dict>
 		<key>TermsAndConditions.pdf</key>
@@ -603,11 +607,18 @@
 			hPgdImeZTxF97vTn94ydfgKz4dVMbYEqtZrAnTla/SQ=
 			</data>
 		</dict>
+		<key>client.p12</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MZqSWcl/ZZNuEGDh4ZuEmd3u77b05fgyiq9VhGDQfTg=
+			</data>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5A2KcU61z8QAgRcGpFUZSAzdGYcbING8v2b/Sn4kDck=
+			f8Mmqk1peusRguJlLgmpsnngJ7mscpsomyU7li1w/Bg=
 			</data>
 			<key>optional</key>
 			<true/>

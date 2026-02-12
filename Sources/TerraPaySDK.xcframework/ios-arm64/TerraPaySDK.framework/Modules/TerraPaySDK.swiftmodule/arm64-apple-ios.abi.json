@@ -273,6 +273,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TerraPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -606,9 +616,109 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "TerrapaySDKConfig",
-        "printedName": "TerrapaySDKConfig",
+        "name": "TerraPaySDKConfig",
+        "printedName": "TerraPaySDKConfig",
         "children": [
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)accessToken",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC11accessTokenSSvp",
+            "moduleName": "TerraPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)accessToken",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC11accessTokenSSvg",
+                "moduleName": "TerraPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)refreshToken",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC12refreshTokenSSvp",
+            "moduleName": "TerraPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)refreshToken",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC12refreshTokenSSvg",
+                "moduleName": "TerraPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "controller",
@@ -622,8 +732,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)controller",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10controllerSo16UIViewControllerCvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)controller",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC10controllerSo16UIViewControllerCvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -647,8 +757,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)controller",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10controllerSo16UIViewControllerCvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)controller",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC10controllerSo16UIViewControllerCvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -672,8 +782,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)dialCode",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC8dialCodeSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)dialCode",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC8dialCodeSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -697,8 +807,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)dialCode",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC8dialCodeSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)dialCode",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC8dialCodeSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -722,8 +832,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)msisdn",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC6msisdnSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)msisdn",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC6msisdnSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -747,8 +857,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)msisdn",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC6msisdnSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)msisdn",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC6msisdnSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -772,106 +882,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)subscriberName",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC14subscriberNameSSvp",
-            "moduleName": "TerraPaySDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)subscriberName",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC14subscriberNameSSvg",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)setSubscriberName:",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC14subscriberNameSSvs",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11TerraPaySDK17TerrapaySDKConfigC14subscriberNameSSvM",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC14subscriberNameSSvM",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "walletName",
-            "printedName": "walletName",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)walletName",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10walletNameSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)subscriberName",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC14subscriberNameSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -895,8 +907,58 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)walletName",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10walletNameSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)subscriberName",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC14subscriberNameSSvg",
+                "moduleName": "TerraPaySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "walletName",
+            "printedName": "walletName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)walletName",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC10walletNameSSvp",
+            "moduleName": "TerraPaySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)walletName",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC10walletNameSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -920,8 +982,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)currency",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC8currencySSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)currency",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC8currencySSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -945,8 +1007,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)currency",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC8currencySSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)currency",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC8currencySSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -970,8 +1032,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)countryCode",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC11countryCodeSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)countryCode",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC11countryCodeSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -995,8 +1057,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)countryCode",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC11countryCodeSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)countryCode",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC11countryCodeSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1020,8 +1082,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)primaryColor",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC12primaryColorSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)primaryColor",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC12primaryColorSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -1045,8 +1107,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)primaryColor",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC12primaryColorSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)primaryColor",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC12primaryColorSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1070,8 +1132,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)secondaryColor",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC14secondaryColorSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)secondaryColor",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC14secondaryColorSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -1095,8 +1157,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)secondaryColor",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC14secondaryColorSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)secondaryColor",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC14secondaryColorSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1128,16 +1190,16 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)email",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC5emailSSSgvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)email",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC5emailSSSgvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
-              "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -1161,8 +1223,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)email",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC5emailSSSgvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)email",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC5emailSSSgvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1170,63 +1232,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)setEmail:",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC5emailSSSgvs",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11TerraPaySDK17TerrapaySDKConfigC5emailSSSgvM",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC5emailSSSgvM",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -1243,8 +1248,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)withdrawLabel",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC13withdrawLabelSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)withdrawLabel",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC13withdrawLabelSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -1252,6 +1257,7 @@
               "AccessControl",
               "ObjC"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -1267,8 +1273,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)withdrawLabel",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC13withdrawLabelSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)withdrawLabel",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC13withdrawLabelSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1276,55 +1282,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)setWithdrawLabel:",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC13withdrawLabelSSvs",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11TerraPaySDK17TerrapaySDKConfigC13withdrawLabelSSvM",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC13withdrawLabelSSvM",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -1341,8 +1298,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)topUpLabel",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10topUpLabelSSvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)topUpLabel",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC10topUpLabelSSvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -1350,6 +1307,7 @@
               "AccessControl",
               "ObjC"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -1365,8 +1323,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)topUpLabel",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10topUpLabelSSvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)topUpLabel",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC10topUpLabelSSvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1374,55 +1332,6 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)setTopUpLabel:",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10topUpLabelSSvs",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11TerraPaySDK17TerrapaySDKConfigC10topUpLabelSSvM",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10topUpLabelSSvM",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -1447,16 +1356,16 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(py)termsConditionsUrl",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC18termsConditionsUrlSSSgvp",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(py)termsConditionsUrl",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC18termsConditionsUrlSSSgvp",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
-              "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -1480,8 +1389,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)termsConditionsUrl",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC18termsConditionsUrlSSSgvg",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)termsConditionsUrl",
+                "mangledName": "$s11TerraPaySDK0aB9SDKConfigC18termsConditionsUrlSSSgvg",
                 "moduleName": "TerraPaySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1489,76 +1398,19 @@
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)setTermsConditionsUrl:",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC18termsConditionsUrlSSSgvs",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11TerraPaySDK17TerrapaySDKConfigC18termsConditionsUrlSSSgvM",
-                "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC18termsConditionsUrlSSSgvM",
-                "moduleName": "TerraPaySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(controller:dialCode:msisdn:subscriberName:walletName:currency:countryCode:primaryColor:secondaryColor:email:topUpLabel:withdrawLabel:termsConditionsUrl:)",
+            "printedName": "init(controller:accessToken:refreshToken:dialCode:msisdn:subscriberName:walletName:currency:countryCode:primaryColor:secondaryColor:email:topUpLabel:withdrawLabel:termsConditionsUrl:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "TerrapaySDKConfig",
-                "printedName": "TerraPaySDK.TerrapaySDKConfig",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig"
+                "name": "TerraPaySDKConfig",
+                "printedName": "TerraPaySDK.TerraPaySDKConfig",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig"
               },
               {
                 "kind": "TypeNominal",
@@ -1616,6 +1468,18 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
@@ -1660,8 +1524,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)initWithController:dialCode:msisdn:subscriberName:walletName:currency:countryCode:primaryColor:secondaryColor:email:topUpLabel:withdrawLabel:termsConditionsUrl:",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC10controller8dialCode6msisdn14subscriberName06walletK08currency07countryH012primaryColor09secondaryP05email10topUpLabel08withdrawU018termsConditionsUrlACSo16UIViewControllerC_S9SSgS2SAStcfc",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)initWithController:accessToken:refreshToken:dialCode:msisdn:subscriberName:walletName:currency:countryCode:primaryColor:secondaryColor:email:topUpLabel:withdrawLabel:termsConditionsUrl:",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigC10controller11accessToken07refreshG08dialCode6msisdn14subscriberName06walletM08currency07countryJ012primaryColor09secondaryR05email10topUpLabel08withdrawW018termsConditionsUrlACSo16UIViewControllerC_S11SSgS2SAUtcfc",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "AccessControl",
@@ -1676,14 +1540,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "TerrapaySDKConfig",
-                "printedName": "TerraPaySDK.TerrapaySDKConfig",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig"
+                "name": "TerraPaySDKConfig",
+                "printedName": "TerraPaySDK.TerraPaySDKConfig",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig(im)init",
-            "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigCACycfc",
+            "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig(im)init",
+            "mangledName": "$s11TerraPaySDK0aB9SDKConfigCACycfc",
             "moduleName": "TerraPaySDK",
             "overriding": true,
             "implicit": true,
@@ -1697,8 +1561,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig",
-        "mangledName": "$s11TerraPaySDK17TerrapaySDKConfigC",
+        "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig",
+        "mangledName": "$s11TerraPaySDK0aB9SDKConfigC",
         "moduleName": "TerraPaySDK",
         "declAttributes": [
           "Final",
@@ -2120,6 +1984,47 @@
             "fixedbinaryorder": 2
           },
           {
+            "kind": "Var",
+            "name": "closed",
+            "printedName": "closed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TerraPaySDK.TerraPayResultType.Type) -> TerraPaySDK.TerraPayResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TerraPayResultType",
+                    "printedName": "TerraPaySDK.TerraPayResultType",
+                    "usr": "c:@M@TerraPaySDK@E@TerraPayResultType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TerraPaySDK.TerraPayResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TerraPayResultType",
+                        "printedName": "TerraPaySDK.TerraPayResultType",
+                        "usr": "c:@M@TerraPaySDK@E@TerraPayResultType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TerraPaySDK@E@TerraPayResultType@TerraPayResultTypeClosed",
+            "mangledName": "$s11TerraPaySDK0aB10ResultTypeO6closedyA2CmF",
+            "moduleName": "TerraPaySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -2326,9 +2231,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "TerrapaySDKConfig",
-                "printedName": "TerraPaySDK.TerrapaySDKConfig",
-                "usr": "c:@M@TerraPaySDK@objc(cs)TerrapaySDKConfig"
+                "name": "TerraPaySDKConfig",
+                "printedName": "TerraPaySDK.TerraPaySDKConfig",
+                "usr": "c:@M@TerraPaySDK@objc(cs)TerraPaySDKConfig"
               },
               {
                 "kind": "TypeFunc",
@@ -2372,7 +2277,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@TerraPaySDK@objc(cs)TerraPayClient(im)launchWith:completionHandler:",
-            "mangledName": "$s11TerraPaySDK0aB6ClientC6launch4with17completionHandleryAA17TerrapaySDKConfigC_yAA0aB10ResultTypeO_AA0aB9ErrorInfoCSgtctF",
+            "mangledName": "$s11TerraPaySDK0aB6ClientC6launch4with17completionHandleryAA0aB9SDKConfigC_yAA0aB10ResultTypeO_AA0aB9ErrorInfoCSgtctF",
             "moduleName": "TerraPaySDK",
             "declAttributes": [
               "Final",
@@ -3144,6 +3049,55 @@
       "value": "0.0"
     },
     {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/URLSession+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 14,
+      "value": "\"responseCode\""
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/URLSession+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/URLSession+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/URLSession+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/URLSession+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 546,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/URLSession+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1057,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/URLSession+Extension.swift",
+      "kind": "Array",
+      "offset": 1111,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Extensions\/UserDefaults+Extension.swift",
       "kind": "StringLiteral",
       "offset": 205,
@@ -3181,58 +3135,65 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 313,
+      "offset": 1689,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 346,
+      "offset": 1730,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1764,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1806,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1888,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 372,
+      "offset": 1923,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7329,
+      "length": 6,
+      "value": "\"Main\""
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 601,
+      "offset": 8200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 671,
+      "offset": 14787,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 704,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12624,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12968,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/Dropdown\/TPDropdownCell.swift",
@@ -3678,14 +3639,21 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Services\/TPAPIService.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 956,
+      "length": 22,
+      "value": "\"\/oauth2\/refreshtoken\""
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Services\/TPAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
       "length": 8,
       "value": "\"TOP_UP\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Services\/TPAPIService.swift",
       "kind": "StringLiteral",
-      "offset": 1141,
+      "offset": 1383,
       "length": 10,
       "value": "\"WITHDRAW\""
     },
@@ -11441,37 +11409,51 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TerraPaySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1007,
+      "offset": 1142,
       "length": 8,
       "value": "\"Top Up\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TerraPaySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1049,
+      "offset": 1184,
       "length": 10,
       "value": "\"Withdraw\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TerraPaySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 4170,
+      "offset": 4644,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TerraPaySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 4187,
+      "offset": 4661,
       "length": 9,
       "value": "2"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TerraPaySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4680,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TerraPaySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4698,
+      "offset": 5329,
       "length": 39,
       "value": "\"terrapayConnectedRedirectNotification\""
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TerraPaySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7240,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPConfig.swift",
@@ -11777,93 +11759,100 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1691,
       "length": 17,
       "value": "\"com.TerraPaySDK\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1750,
       "length": 8,
       "value": "\"004F71\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1713,
+      "offset": 1802,
       "length": 8,
       "value": "\"FFFFFF\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1843,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1811,
+      "offset": 1900,
       "length": 28,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSSSSS\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1883,
+      "offset": 1972,
       "length": 24,
       "value": "\" dd MMM yyyy | hh:mm a\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1946,
+      "offset": 2035,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1998,
+      "offset": 2087,
       "length": 4,
       "value": "\"KE\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2044,
+      "offset": 2133,
       "length": 4,
       "value": "\"TZ\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 2090,
+      "offset": 2179,
       "length": 5,
       "value": "23.84"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 2140,
+      "offset": 2229,
       "length": 4,
       "value": "1.50"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2328,
+      "offset": 2417,
       "length": 64,
       "value": "\"Bundle with identifier \""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
       "kind": "StringLiteral",
-      "offset": 2381,
+      "offset": 2470,
       "length": 3,
       "value": "\" not found\""
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/TPUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11540,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
