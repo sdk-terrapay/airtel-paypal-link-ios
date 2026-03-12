@@ -582,6 +582,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TerraPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "TerraPaySDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3135,63 +3152,63 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1689,
+      "offset": 1785,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1730,
+      "offset": 1826,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1764,
+      "offset": 1860,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1806,
+      "offset": 1902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1888,
+      "offset": 1984,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1923,
+      "offset": 2019,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7329,
+      "offset": 7467,
       "length": 6,
       "value": "\"Main\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8200,
+      "offset": 8338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Screens\/DashBoard\/View\/TPDashBoardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14787,
+      "offset": 14925,
       "length": 4,
       "value": "true"
     },
@@ -3660,7 +3677,7 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/CloudStorage\/OneDrive-TerraPay\/Giri\/Projects\/Payments\/PayPal\/MobileApps\/mobile-sdk-ios\/TerraPaySDK\/TerraPaySDK\/Services\/TPSharedService.swift",
       "kind": "FloatLiteral",
-      "offset": 326,
+      "offset": 325,
       "length": 3,
       "value": "0.0"
     },
@@ -12186,119 +12203,126 @@
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7513,
+      "offset": 7519,
+      "length": 11,
+      "value": "\"crossicon\""
+    },
+    {
+      "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7652,
       "length": 8,
       "value": "\"delete\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7651,
+      "offset": 7790,
       "length": 12,
       "value": "\"deleteLeft\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7789,
+      "offset": 7928,
       "length": 10,
       "value": "\"dropdown\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7925,
+      "offset": 8064,
       "length": 10,
       "value": "\"eyeClose\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8059,
+      "offset": 8198,
       "length": 9,
       "value": "\"eyeOpen\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8192,
+      "offset": 8331,
       "length": 9,
       "value": "\"failure\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8327,
+      "offset": 8466,
       "length": 10,
       "value": "\"getmoney\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8459,
+      "offset": 8598,
       "length": 8,
       "value": "\"locked\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8605,
+      "offset": 8744,
       "length": 16,
       "value": "\"notransactions\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8743,
+      "offset": 8882,
       "length": 8,
       "value": "\"paypal\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8881,
+      "offset": 9020,
       "length": 12,
       "value": "\"paypalLogo\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9017,
+      "offset": 9156,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9154,
+      "offset": 9293,
       "length": 11,
       "value": "\"poweredby\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9285,
+      "offset": 9424,
       "length": 7,
       "value": "\"share\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9428,
+      "offset": 9567,
       "length": 15,
       "value": "\"statusSuccess\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9567,
+      "offset": 9706,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/giribabu\/Library\/Developer\/Xcode\/DerivedData\/TerraPaySDK-fptfbpmtuquydhelebgtlbxtyzcx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TerraPaySDK\/IntermediateBuildFilesPath\/TerraPaySDK.build\/Release-iphoneos\/TerraPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9700,
+      "offset": 9839,
       "length": 9,
       "value": "\"uncheck\""
     }
